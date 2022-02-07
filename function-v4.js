@@ -1,9 +1,9 @@
-function fatorial(n) {
-    fat = 1
+function factorial(n) {
+    fac = 1
     for(c=n; c>1; c--) {
-        fat *= c
+        fac *= c
     }
     return fat
 }
 
-console.log(fatorial(5));
+console.log(factorial(5));
