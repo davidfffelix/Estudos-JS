@@ -1,8 +1,8 @@
 function oddeven(n) {
     if (n%2==0) {
-        return `Odd!`
+        return `Odd!`;
     } else {
-        return `Even!`
+        return `Even!`;
     }
 }
 
