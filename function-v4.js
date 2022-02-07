@@ -3,7 +3,7 @@ function factorial(n) {
     for(c=n; c>1; c--) {
         fac *= c
     }
-    return fat
+    return fac;
 }
 
 console.log(factorial(5));
