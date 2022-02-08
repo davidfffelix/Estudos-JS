@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DOM </title>
+    <style>
+        body {
+            background-color: blue;
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1> DOM </h1>
+    <p> Document Object Model </p>
+    <p> The DOM is a <strong> W3C </strong> (World Wide Web Consortium) standard. </p>
+    <div id="msg"> Click here </div>
+    <script>
+        var d = window.document.getElementById("msg");
+        d.innerText = "Loading...";
+        d.style.background = "black"
+        //Another Alternative - window.document.getElementById("msg").innerText = "Loading...";
+    </script>
+</body>
+</html>
